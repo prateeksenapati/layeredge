@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            color: #333;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+
+        div {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #dedcdc;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+           margin: 0 auto;
+           text-align: center;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Login</h1>
+    <div>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <input type="checkbox" id="remember_me" name="remember_me">
+            <label for="remember_me">Remember Me</label><br><br>
+            <button type="submit">Login</button><br><br>
+            <a href="#">Forgot Password?</a>
+        </form>
+    </div>
+</body>
+
+</html>
